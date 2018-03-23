@@ -1,0 +1,2572 @@
+<!DOCTYPE html>
+<html onselectstart='return false'>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <!--当前页面的三要素-->
+    <title>哔哩哔哩动画网站实战项目</title>
+
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+
+    <link type='text/css' href="css/header.css" rel="stylesheet">
+    <link type='text/css' href="css/bodyer.css" rel="stylesheet">
+    <link type='text/css' href="css/footer.css" rel="stylesheet">
+
+</head>
+
+<body>
+<!-- header start -->
+    <div id="header_wrap">
+        <!-- h-top start -->
+        <div id="h_top_wrap">
+            <div class="t_filter"></div>
+            <div class="t_mask"></div>
+            <div class="con_wrap">
+                <ul class='con_left'>
+                    <li class='main'><a href="https://www.bilibili.com/" title='主站' target='_blank'><i></i><span>主站</span></a></li>
+                    <li><a href="https://h.bilibili.com/" title='画友' target='_blank'><span>画友</span></a></li>
+                    <li class='game'>
+                        <a href="https://game.bilibili.com/" title='游戏中心' target='_blank'>
+                            <span>游戏中心</span>
+                        </a>
+                        <div class="hide">
+                            <div class="h_left">
+                                <div class="l_top"><a href="http://game.bilibili.com/fgo/event_salomon/" target='_blank'><img src="images/header/game/00.jpg" alt=""></a></div>
+                                <ul class="l_bot">
+                                    <li>
+                                        <a href="http://game.bilibili.com/blhx/"  title='碧蓝航线' target='_blank'>
+                                            <img src="images/header/game/1.png" alt="" width='63' height='63'>
+                                            <span>碧蓝航线</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://game.bilibili.com/sdmht/" title='神代梦华' target='_blank'>
+                                            <img src="images/header/game/2.jpg" alt="" width='63' height='63'>
+                                            <span>神代梦华</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://7day.biligame.com/" title='永远的7' target='_blank'>
+                                            <img src="images/header/game/3.jpg" alt="" width='63' height='63'>
+                                            <span>永远的7</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="h_right">
+                                <div class="r_title">
+                                    <img src="images/header/game/title.png" alt="" width='96' height='29'>
+                                </div>
+                                <a href="http://bbs.biligame.com/forum.php" target='_blank'>游戏论坛</a>
+                                <ul>
+                                    <li imgdata='images/header/game/show1.png'><a href="http://www.biligame.com/detail/?id=101509" target='_blank'>电击文库：零境交错</a></li>
+                                    <li imgdata='images/header/game/show2.png'><a href="http://rwby.biligame.com/yuyue/" target='_blank'>RWBY</a></li>
+                                    <li imgdata='images/header/game/show3.png'><a href="http://bangdream.biligame.com/yuyue/" target='_blank'>歌之王子殿下：闪耀之星</a></li>
+                                    <li imgdata='images/header/game/show4.png'><a href="http://zx.biligame.com/" target='_blank'>BanG Dream</a></li>
+                                    <li imgdata='images/header/game/show5.png'><a href="http://www.biligame.com/detail/?id=206" target='_blank'>无法触碰的掌心</a></li>
+                                    <li imgdata='images/header/game/show6.png'><a href="http://a3.biligame.com/" target='_blank'>梦幻模拟战</a></li>
+                                    <li imgdata='images/header/game/show7.png'><a href="http://yxwj.biligame.com/" target='_blank'>A3!满开剧团</a></li>
+                                </ul>
+                                <div class="img"><img src="" alt=""></div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class='live'>
+                        <a href="https://live.bilibili.com/" title='直播' target='_blank'><span>直播</span></a>
+                        <div class="hide">
+                            <div class="h_left">
+                                <p>热门直播</p>
+                                <ul class='clearfix'>
+                                    <li>
+                                        <a href="https://live.bilibili.com/503" target='_blank'>
+                                            <div class="img">
+                                                <img src="images/header/live/1.jpg" alt="" width="66" height="66">
+                                            </div>
+                                            <span>海岛情话</span>
+                                            <div class="cover">
+                                                <b class='dot'></b><b class='live'>LIVE</b>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a href="https://live.bilibili.com/175" target='_blank'>
+                                            <div class="img"><img src="images/header/live/2.jpg" alt="" width="66" height="66"></div><span>沐沐mm小海绵</span>
+                                            <div class="cover">
+                                                <b class='dot'></b><b class='live'>LIVE</b>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li><a href="https://live.bilibili.com/447" target='_blank'>
+                                            <div class="img"><img src="images/header/live/3.jpg" alt="" width="66" height="66"></div><span>小旭旭_Aqm啦啦</span>
+                                            <div class="cover">
+                                                <b class='dot'></b><b class='live'>LIVE</b>
+                                            </div>
+                                        </a>
+
+                                    </li>
+                                    <li><a href="https://live.bilibili.com/404" target='_blank'>
+                                            <div class="img"><img src="images/header/live/4.jpg" alt="" width="66" height="66"></div><span>Alessa0</span>
+                                        <div class="cover">
+                                            <b class='dot'></b><b class='live'>LIVE</b>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li><a href="https://live.bilibili.com/6" target='_blank'>
+                                            <div class="img"><img src="images/header/live/5.jpg" alt="" width="66" height="66"></div><span>小可乐o3o</span>
+                                        <div class="cover">
+                                            <b class='dot'></b><b class='live'>LIVE</b>
+                                        </div>
+                                        </a>
+                                    </li>
+                                    <li><a href="https://live.bilibili.com/246" target='_blank'>
+                                            <div class="img"><img src="images/header/live/6.jpg" alt="" width="66" height="66"></div><span>青衣才不会怕黑</span>
+                                        <div class="cover">
+                                            <b class='dot'></b><b class='live'>LIVE</b>
+                                        </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="h_right">
+                                <p>热门活动</p>
+                                <div class="r_bot">
+                                    <a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html" title='直播唱见集·冬季版' target='_blank'>
+                                        <div class="img"><img src="images/header/live/7.png" alt="" width="208" height="80"></div>
+                                    </a>
+                                    <a href="https://live.bilibili.com/pages/lpl2018/spring" title='bilibili全程直播BLP2018' target='_blank'>
+                                        <div class="img"><img src="images/header/live/8.jpg" alt="" width="208" height="80"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="https://show.bilibili.com/platform/home.html" title='会员购' target='_blank'><span>会员购</span></a></li>
+                    <li><a href="https://bmall.bilibili.com/#!/" title='周边' target='_blank'><span>周边</span></a></li>
+                    <li class='app'>
+                        <a href="https://app.bilibili.com/" title='移动端' target='_blank'><span>移动端</span></a>
+                        <div class="hide">
+                            <div class="qrCode"></div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="con_right">
+                    <li class="login">
+                        <a href="https://passport.bilibili.com/login"></a>
+                        <div class="hide">
+                            <p>登陆后你可以:</p>
+                            <div class="img">
+                                <ul>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                            <div class="input"><a href="https://passport.bilibili.com/login">登录</a></div>
+                            <div class="reg"><span>首次使用？</span><a href="https://passport.bilibili.com/register/phone.html#/">点我去注册</a></div>
+                        </div>
+                    </li>
+                    <li class="history">
+                        <a href="https://www.bilibili.com/account/history" target='_blank'>历史</a>
+                        <div class="hide">
+                            <p>登录后有更多功能哦~</p>
+                            <div class="login"><a href="https://passport.bilibili.com/login">登录</a></div>
+                            <div class="none">没有数据哦，多看点视频吧</div>
+                            <div class="more"><a href="https://www.bilibili.com/account/history" target='_blank'> 查看更多 > </a></div>
+                        </div>
+                    </li>
+                    <li class='submit'>
+                        <a href="https://passport.bilibili.com/login" target='_blank'>投&nbsp;稿</a>
+                        <ul class="hide">
+                            <li><a href="https://member.bilibili.com/v/#/text-apply" target='_blank'><i style='background-position:-535px -918px;'></i><span>专栏投稿</span></a></li>
+                            <li><a href="https://member.bilibili.com/v/#/text-apply" target='_blank'><i style='background-position:-535px -982px;'></i><span>音频投稿</span></a></li>
+                            <li><a href="https://member.bilibili.com/v/#/text-apply" target='_blank'><i style='background-position:-471px -918px;'></i><span>视频投稿</span></a></li>
+                            <li><a href="https://member.bilibili.com/v/#/text-apply" target='_blank'><i style='background-position:-471px -982px;'></i><span>投稿管理</span></a></li>
+                            <li><a href="https://member.bilibili.com/v/#/text-apply" target='_blank'><i style='background-position:-471px -1750px;'></i><span>创作中心</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="h_mid_wrap">
+            <div class="m_left">
+                <a href="https://www.bilibili.com/?spm_id_from=333.334.banner_link.2"></a>
+            </div>
+            <div class="m_right">
+                <a href="https://www.bilibili.com/ranking?spm_id_from=333.334.banner_link.1" class="rank" target='_blank'>
+                    <i class='r_icon'></i><span class="r_des">排行榜</span>
+                </a>
+                <div class="search">
+                    <input type="text" placeholder='崽啊，你什么时候肥家？'>
+                    <a href="https://www.bilibili.com/video/av18579428/" target='_blank'><i class="s_icon"></i></a>
+                </div>
+            </div>
+        </div>
+        <div id="h_bot_wrap">
+            <div class="b_left">
+                <ul class="navUl">
+                    <li class="navLi l1">
+                        <a href="https://www.bilibili.com/?spm_id_from=333.334.primary_menu.1" class="navA">
+                            <i class="navNum"></i>
+                            <span class="navText">首页</span>
+                        </a>
+                    </li>
+                    <li class="navLi">
+                        <a href="https://www.bilibili.com/v/douga/?spm_id_from=333.334.primary_menu.2" class="navA">
+                            <i class="navNum">999+</i>
+                            <span class="navText">动画</span>
+                        </a>
+                        <!-- <ul class="hideUl">
+                            <li class="hideLi">
+                                <a href="https://www.bilibili.com/v/douga/mad/?spm_id_from=333.334.primary_menu.3#/" class="hideA">
+                                    <span class="icon leftIcon"></span>
+                                    <span class="text">MAD·AMV</span>
+                                    <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                </a>
+                            </li>
+                            <li class="hideLi">
+                                <a href="https://www.bilibili.com/v/douga/mmd/?spm_id_from=333.54.primary_menu.4#/" class="hideA">
+                                    <span class="icon leftIcon"></span>
+                                    <span class="text">MMD·3D</span>
+                                    <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                </a>
+                            </li>
+                            <li class="hideLi">
+                                <a href="https://www.bilibili.com/v/douga/voice/?spm_id_from=333.55.primary_menu.5#/" class="hideA">
+                                    <span class="icon leftIcon"></span>
+                                    <span class="text">短片·手书·配音</span>
+                                    <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                </a>
+                            </li>
+                            <li class="hideLi">
+                                <a href="https://www.bilibili.com/v/douga/other/?spm_id_from=333.56.primary_menu.6#/" class="hideA">
+                                    <span class="icon leftIcon"></span>
+                                    <span class="text">综合</span>
+                                    <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                </a>
+                            </li>
+                        </ul> -->
+                    </li>
+                    <li class="navLi"><a href="https://bangumi.bilibili.com/22/?spm_id_from=333.334.primary_menu.7" class="navA"><i class="navNum">117</i><span class="navText">番剧</span></a></li>
+                    <li class="navLi"><a href="https://bangumi.bilibili.com/guochuang/?spm_id_from=333.334.primary_menu.14" class="navA"><i class="navNum">102</i><span class="navText">国创</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/music/?spm_id_from=666.5.primary_menu.21" class="navA"><i class="navNum">999+</i><span class="navText">音乐</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/dance/?spm_id_from=333.6.primary_menu.29" class="navA"><i class="navNum">244</i><span class="navText">舞蹈</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/game/?spm_id_from=333.7.primary_menu.33" class="navA"><i class="navNum">999+</i><span class="navText">游戏</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/technology/?spm_id_from=333.8.primary_menu.42" class="navA"><i class="navNum">999+</i><span class="navText">科技</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/life/?spm_id_from=333.9.primary_menu.50" class="navA"><i class="navNum">999+</i><span class="navText">生活</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/kichiku/?spm_id_from=333.10.primary_menu.60" class="navA"><i class="navNum">90</i><span class="navText">鬼畜</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/fashion/?spm_id_from=333.11.primary_menu.65" class="navA"><i class="navNum">600</i><span class="navText">时尚</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/ad/ad/?spm_id_from=333.12.primary_menu.70#/" class="navA"><i class="navNum">203</i><span class="navText">广告</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/ent/?spm_id_from=333.100.primary_menu.71" class="navA"><i class="navNum">999+</i><span class="navText">娱乐</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/v/cinephile/?spm_id_from=333.13.primary_menu.75" class="navA"><i class="navNum">999+</i><span class="navText">影视</span></a></li>
+                    <li class="navLi"><a href="https://www.bilibili.com/cinema/?spm_id_from=333.45.primary_menu.81" class="navA"><i class="navNum">173</i><span class="navText">放映厅</span></a></li>
+                </ul>
+            </div>
+            <div class="b_middle">
+                <ul class="navUl">
+                    <li class="navLi"><a href="https://www.bilibili.com/read/home?spm_id_from=333.334.primary_menu.85" class="navA"> <i class="navNum icon1"></i><span class="navText">专栏</span></a></li>
+                    <li class="navLi square">
+                        <a href="https://www.bilibili.com/square?spm_id_from=333.334.primary_menu.86" class="navA"><i class="navNum icon2"></i><span class="navText">广场</span></a>
+                        <div class="hideDiv">
+                            <ul class="h_left">
+                                <li class="l_li"><a href="https://show.bilibili.com/platform/home.html?spm_id_from=333.334.primary_menu.87" class="l_a"><i class="l_icon icon1"></i><span class="l_text">会员购</span></a></li>
+                                <li class="l_li"><a href="https://activity.bilibili.com/?spm_id_from=333.334.primary_menu.88" class="l_a"><i class="l_icon icon2"></i><span class="l_text">活动中心</span></a></li>
+                                <li class="l_li"><a href="https://game.bilibili.com/?spm_id_from=333.334.primary_menu.89" class="l_a"><i class="l_icon icon3"></i><span class="l_text">游戏中心</span></a></li>
+                                <li class="l_li"><a href="https://news.bilibili.com/?spm_id_from=333.334.primary_menu.90" class="l_a"><i class="l_icon icon4"></i><span class="l_text">新闻中心</span></a></li>
+                                <li class="l_li"><a href="http://h.bilibili.com/?spm_id_from=333.334.primary_menu.91" class="l_a"><i class="l_icon icon5"></i><span class="l_text">画友</span></a></li>
+                                <li class="l_li"><a href="https://www.bilibili.com/mango?spm_id_from=333.334.primary_menu.92" class="l_a"><i class="l_icon icon6"></i><span class="l_text">芒果TV</span></a></li>
+                            </ul>
+                            <ul class="h_right">
+                                <li class="r_li"><a href="https://www.bilibili.com/blackboard/activity_list.html?spm_id_from=333.334.primary_menu.93#/" class="r_a" title='bilibili活动' target='_blank'><img src="images/header/bot/square/1.jpg" alt="" width='240' height='84'></a></li>
+                                <li class="r_li"><a href="https://www.bilibili.com/blackboard/topic_list.html?spm_id_from=333.334.primary_menu.94#/" class="r_a" title='话题列表' target='_blank'><img src="images/header/bot/square/2.jpg" alt="" width='240' height='84'></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navLi live">
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.primary_menu.93" class="navA"><i class="navNum icon3"></i><span class="navText">直播</span></a>
+                        <div class="hideDiv">
+                            <ul class="h_left hideUl">
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/subject?spm_id_from=333.334.primary_menu.94" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">推荐主播</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/pages/area/ent?spm_id_from=333.334.primary_menu.95" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">生活娱乐</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="http://live.bilibili.com/pages/area/draw.html" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">绘画专区</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/pages/area/ent?spm_id_from=333.334.primary_menu.97" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">唱见舞见</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/pages/area/ent?spm_id_from=333.334.primary_menu.100" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">御宅文化</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/pages/area/ent?spm_id_from=333.334.primary_menu.100" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">单机联机</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/online?spm_id_from=333.334.primary_menu.102" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">网络游戏</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/e-sports?spm_id_from=333.334.primary_menu.101" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">电子竞技</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                                <li class="hideLi">
+                                    <a href="https://live.bilibili.com/mobile-game?spm_id_from=333.334.primary_menu.102" class="hideA">
+                                        <span class="icon leftIcon"></span>
+                                        <span class="text">手游直播</span>&nbsp;
+                                        <span class='iconWrap'><span class="icon rightIcon"></span></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="h_right">
+                                <li class="r_li"><a href="https://h.bilibili.com/?spm_id_from=333.334.primary_menu.105" class="r_a" target='_blank'><img src="images/header/bot/live/1.png" alt=""></a></li>
+                                <li class="r_li"><a href="https://vc.bilibili.com/?spm_id_from=333.334.primary_menu.106" class="r_a" target='_blank'><img src="images/header/bot/live/2.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navLi"><a href="https://www.bilibili.com/blackroom/ban?spm_id_from=333.334.primary_menu.105" class="navA"><i class="navNum icon4"></i><span class="navText">小黑屋</span></a></li>
+                </ul>
+            </div>
+            <a href="http://search.bilibili.com/all?keyword=%E6%B4%AA%E8%8D%92%E4%B9%8B%E5%8A%9B&from_source=gif_recommend" class="b_right" target='_blank'>
+                <img src="images/header/bot/gif.gif" alt="">
+            </a>
+        </div>
+        <!-- h-top end -->
+    </div>
+<!-- header end -->
+
+<!-- bodyer start -->
+    <div id="bodyer_wrap">
+        <!-- banner start -->
+            <div id="b_banner_wrap">
+                <div class="banner_left">
+                    <ul class="img_ul">
+                        <li class="img_li">
+                            <a href="https://www.bilibili.com/read/cv171421?spm_id_from=333.334.chief_recommend.1" class="img_a" target='_blank'>
+                                <img src="images/bodyer/banner/left/1.jpg" alt="" target='_blank'>
+                            </a>
+                            <a href="https://www.bilibili.com/read/cv171421?spm_id_from=333.334.chief_recommend.1" class="li_text" target='_blank'>骨头王并不只是龙傲天</a>
+                        </li>
+                        <li class="img_li">
+                            <a href="http://game.bilibili.com/fgo/fes/" class="img_a" target='_blank'>
+                                <img src="images/bodyer/banner/left/2.jpg" alt="">
+                            </a>
+                            <a href="http://game.bilibili.com/fgo/fes/" class="li_text" target='_blank'>《FGO》年末祭舞台直击</a>
+                        </li>
+                        <li class="img_li">
+                            <a href="https://www.bilibili.com/blackboard/activity-2017musicawards.html?spm_id_from=333.334.chief_recommend.5" class="img_a" target='_blank'>
+                                <img src="images/bodyer/banner/left/3.jpg" alt="">
+                            </a>
+                            <a href="https://www.bilibili.com/blackboard/activity-2017musicawards.html?spm_id_from=333.334.chief_recommend.5" class="li_text" target='_blank'>结果公布~</a>
+                        </li>
+                        <li class="img_li">
+                            <a href="https://www.bilibili.com/blackboard/activity-Bk3hxFNHM.html?spm_id_from=333.334.chief_recommend.7" class="img_a" target='_blank'>
+                                <img src="images/bodyer/banner/left/4.jpg" alt="">
+                            </a>
+                            <a href="https://www.bilibili.com/blackboard/activity-Bk3hxFNHM.html?spm_id_from=333.334.chief_recommend.7" class="li_text" target='_blank'>过年的时候你最喜欢做什么</a>
+                        </li>
+                        <li class="img_li">
+                            <a href="https://www.bilibili.com/read/cv172943?spm_id_from=333.334.chief_recommend.9" class="img_a" target='_blank'>
+                                <img src="images/bodyer/banner/left/5.jpg" alt="">
+                            </a>
+                            <a href="https://www.bilibili.com/read/cv172943?spm_id_from=333.334.chief_recommend.9" class="li_text" target='_blank'>黑魔王诞生</a>
+                        </li>
+                    </ul>
+                    <ul class="tab_ul">
+                        <li class="tab_li on_tab"></li>
+                        <li class="tab_li"></li>
+                        <li class="tab_li"></li>
+                        <li class="tab_li"></li>
+                        <li class="tab_li"></li>
+                    </ul>
+                    <a href="https://www.bilibili.com/blackboard/topic_list.html?spm_id_from=333.334.chief_recommend.2#/" class="more" target='_blank'>更多 > </a>
+                </div>
+                <div class="banner_right">
+                    <div class="ul_wrap">
+                        <!-- <ul class="r_ul ul1">
+                            <li class="r_li">
+                                <img src="images/bodyer/banner/right/1/1.jpg" alt="">
+                                <a href="" class="hide">
+                                    <p class="title">【次元说#2】还你一个2倍高清的老婆 - 图片无损（伪）放大黑科技</p>
+                                    <p class="up">up主：tamaSakura玉桜</p>
+                                    <p class="plays">播放：117000</p>
+                                </a>
+                                <a href="" class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></a>
+                            </li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                        </ul> -->
+                        <!--<ul class="r_ul ul2">
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                        </ul>
+                        <ul class="r_ul ul3">
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                            <li class="r_li"></li>
+                        </ul> -->
+                    </div>
+                    <div class="tab_wrap">
+                        <div class="tab_a left"><i></i><span class='l_span'>昨日</span></div>
+                        <div class="tab_a right"><span class='r_span'>一周</span><i></i></div>
+                    </div>
+                </div>
+            </div>
+        <!-- banner end -->
+
+        <!-- expand start -->
+            <div id="b_expand_wrap">
+                <div class="expand_top">
+                    <div class="t_left">
+                        <i class="icon"></i>
+                        <h2 class="name">推广</h2>
+                    </div>
+                    <div class="t_right"><a href="https://www.bilibili.com/video/online.html?spm_id_from=333.334.home_popularize.6" class="a_l" target='_blank'>在线人数：2676731</a>|<a href="https://www.bilibili.com/newlist.html" class="a_r" target='_blank'>最新投稿：26384</a>
+                    </div>
+                </div>
+                <div class="expand_bot">
+                    <div class="b_left">
+                        <ul class="l_ul">
+                            <li class="l_li">
+                                <a href="https://www.bilibili.com/video/av18761006/?spm_id_from=333.334.chief_recommend.17" class="l_a" target='_blank'>
+                                    <div class="a_div">
+                                        <img class='a_img' src="images/bodyer/expend/1.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                        <i class="time">02:36</i>
+                                        <div class="progress_bar">
+                                            <p><span></span></p>
+                                        </div>
+                                    </div>
+                                    <p class='text'>伊藤香奈子献声！《苍之骑士团》超热血OP公映</p>
+                                    <div class='barrage_wrap'>
+                                        <span class="barrage">不错不错~~~思密达</span>
+                                        <span class="barrage bar2">经费在燃烧燃烧</span>
+                                        <span class="barrage">我要把硬币投</span>
+                                        <span class="barrage bar2">233333333</span>
+                                        <span class="barrage">陶大宇</span>
+                                        <span class="barrage bar2">常山赵子龙长得帅</span>
+                                        <span class="barrage">on may way没媳妇儿</span>
+                                        <span class="barrage bar2">尼古拉斯没有工</span>
+                                        <span class="barrage">‭精彩精彩~~~</span>
+                                        <span class="barrage bar2">逗张花那个栏目的ch</span>
+                                        <span class="barrage">老实的牛不老实</span>
+                                        <span class="barrage bar2">开哥帅过吴彦祖</span>
+                                        <span class="barrage">上门开锁老板跑路了</span>
+                                        <span class="barrage bar2">老牛这个月没</span>
+                                        <span class="barrage">脑残粉没有女朋友</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <a href="https://www.bilibili.com/video/av18860124/?spm_id_from=333.334.home_popularize.2" class="l_a" target='_blank'>
+                                    <div class="a_div">
+                                        <img class='a_img' src="images/bodyer/expend/2.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                        <i class="time">22:55</i>
+                                        <div class="progress_bar">
+                                            <p><span></span></p>
+                                        </div>
+                                    </div>
+                                    <p class='text'>五五开鬼畜《关下门》-布姆灵魂歌手大赛 第二季</p>
+                                    <div class='barrage_wrap'>
+                                        <span class="barrage">不错不错~~~思密达</span>
+                                        <span class="barrage bar2">经费在燃烧燃烧</span>
+                                        <span class="barrage">我要把硬币投</span>
+                                        <span class="barrage bar2">233333333</span>
+                                        <span class="barrage">陶大宇</span>
+                                        <span class="barrage bar2">常山赵子龙长得帅</span>
+                                        <span class="barrage">on may way没媳妇儿</span>
+                                        <span class="barrage bar2">尼古拉斯没有工</span>
+                                        <span class="barrage">‭精彩精彩~~~</span>
+                                        <span class="barrage bar2">逗张花那个栏目的ch</span>
+                                        <span class="barrage">老实的牛不老实</span>
+                                        <span class="barrage bar2">开哥帅过吴彦祖</span>
+                                        <span class="barrage">上门开锁老板跑路了</span>
+                                        <span class="barrage bar2">老牛这个月没</span>
+                                        <span class="barrage">脑残粉没有女朋友</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <a href="https://www.bilibili.com/video/av18799253/?spm_id_from=333.334.home_popularize.3" class="l_a" target='_blank'>
+                                    <div class="a_div">
+                                        <img class='a_img' src="images/bodyer/expend/3.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                        <i class="time">01:22</i>
+                                        <div class="progress_bar">
+                                            <p><span></span></p>
+                                        </div>
+                                    </div>
+                                    <p class='text'>口袋妖怪[AMV]-不只是一段回忆</p>
+                                    <div class='barrage_wrap'>
+                                        <span class="barrage">不错不错~~~思密达</span>
+                                        <span class="barrage bar2">经费在燃烧燃烧</span>
+                                        <span class="barrage">我要把硬币投</span>
+                                        <span class="barrage bar2">233333333</span>
+                                        <span class="barrage">陶大宇</span>
+                                        <span class="barrage bar2">常山赵子龙长得帅</span>
+                                        <span class="barrage">on may way没媳妇儿</span>
+                                        <span class="barrage bar2">尼古拉斯没有工</span>
+                                        <span class="barrage">‭精彩精彩~~~</span>
+                                        <span class="barrage bar2">逗张花那个栏目的ch</span>
+                                        <span class="barrage">老实的牛不老实</span>
+                                        <span class="barrage bar2">开哥帅过吴彦祖</span>
+                                        <span class="barrage">上门开锁老板跑路了</span>
+                                        <span class="barrage bar2">老牛这个月没</span>
+                                        <span class="barrage">脑残粉没有女朋友</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <a href="https://www.bilibili.com/video/av18618251/?spm_id_from=333.334.home_popularize.4" class="l_a" target='_blank'>
+                                    <div class="a_div">
+                                        <img class='a_img' src="images/bodyer/expend/4.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                        <i class="time">48:59</i>
+                                        <div class="progress_bar">
+                                            <p><span></span></p>
+                                        </div>
+                                    </div>
+                                    <p class='text'>【麦苗】国外的劣质手机游戏也是可怕的不行</p>
+                                    <div class='barrage_wrap'>
+                                        <span class="barrage">不错不错~~~思密达</span>
+                                        <span class="barrage bar2">经费在燃烧燃烧</span>
+                                        <span class="barrage">我要把硬币投</span>
+                                        <span class="barrage bar2">233333333</span>
+                                        <span class="barrage">陶大宇</span>
+                                        <span class="barrage bar2">常山赵子龙长得帅</span>
+                                        <span class="barrage">on may way没媳妇儿</span>
+                                        <span class="barrage bar2">尼古拉斯没有工</span>
+                                        <span class="barrage">‭精彩精彩~~~</span>
+                                        <span class="barrage bar2">逗张花那个栏目的ch</span>
+                                        <span class="barrage">老实的牛不老实</span>
+                                        <span class="barrage bar2">开哥帅过吴彦祖</span>
+                                        <span class="barrage">上门开锁老板跑路了</span>
+                                        <span class="barrage bar2">老牛这个月没</span>
+                                        <span class="barrage">脑残粉没有女朋友</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="b_right">
+                        <a href="http://bns.qq.com/?ADTAG=media.buy.bilibili.index_right_jiaodian_smallpic" target="_blank"><img src="images/bodyer/expend/5.jpg" alt=""></a>
+                        <span>广告</span>
+                    </div>
+
+                </div>
+            </div>
+        <!-- expand end -->
+
+        <!-- live start template-->
+            <div class="b_live_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>正在直播</a>
+                        <p class='t_now'>当前共有<span>25508</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>233秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>870条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                        <!-- <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160' height='100'>
+                                        <img class='img show' src="images/bodyer/live/show/1.jpg" alt="" width='160' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                        <div class="progress_bar">
+                                            <p><span></span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                    <div class='barrage_wrap'>
+                                        <span class="barrage">不错不错~~~思密达</span>
+                                        <span class="barrage bar2">经费在燃烧燃烧</span>
+                                        <span class="barrage">我要把硬币投</span>
+                                        <span class="barrage bar2">233333333</span>
+                                        <span class="barrage">陶大宇</span>
+                                        <span class="barrage bar2">常山赵子龙长得帅</span>
+                                        <span class="barrage">on may way没媳妇儿</span>
+                                        <span class="barrage bar2">尼古拉斯没有工</span>
+                                        <span class="barrage">‭精彩精彩~~~</span>
+                                        <span class="barrage bar2">逗张花那个栏目的ch</span>
+                                        <span class="barrage">老实的牛不老实</span>
+                                        <span class="barrage bar2">开哥帅过吴彦祖</span>
+                                        <span class="barrage">上门开锁老板跑路了</span>
+                                        <span class="barrage bar2">老牛这个月没</span>
+                                        <span class="barrage">脑残粉没有女朋友</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- live end template-->
+
+        <!-- animate start -->
+            <div class="b_animate_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>动画</a>
+                        <p class='t_now'>当前共有<span>36892</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>2秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>230条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- animate end -->
+
+        <!-- bangumi start -->
+            <div class="b_bangumi_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://bangumi.bilibili.com/22/?spm_id_from=333.334.bili_bangumi.1" class='t_live' target='_blank'>番剧</a>
+                        <ul class='week'>
+                            <li>
+                                <span class="show">最新</span>
+                                <span class="click">最新</span>
+                            </li>
+                            <li>
+                                <span class="show">一</span>
+                                <span class="click">周一</span>
+                            </li>
+                            <li>
+                                <span class="show">二</span>
+                                <span class="click">周二</span>
+                            </li>
+                            <li>
+                                <span class="show">三</span>
+                                <span class="click">周三</span>
+                            </li>
+                            <li>
+                                <span class="show">四</span>
+                                <span class="click">周四</span>
+                            </li>
+                            <li>
+                                <span class="show">五</span>
+                                <span class="click">周五</span>
+                            </li>
+                            <li>
+                                <span class="show">六</span>
+                                <span class="click">周六</span>
+                            </li>
+                            <li>
+                                <span class="show">日</span>
+                                <span class="click">周日</span>
+                            </li>
+                        </ul>
+                        <a href="https://bangumi.bilibili.com/anime/timeline?spm_id_from=333.334.bili_bangumi.2" class="time" target="_blank">新番时间表 ></a>
+                    </div>
+                    <div class="l_bot">
+                        <div class="ul_wrap">
+                            <!--<ul class="bot_ul ul1">
+                                <li class="bot_li">
+                                    <a href="" class="img" target="_blank">
+                                        <img src="images/bodyer/bangumi/0/1.jpg" alt="" width="74px" height="74px">
+                                    </a>
+                                    <div class="con">
+                                        <a href=""  class="name" target="_blank">戒律的复活</a>
+                                        <div class="tip"><span class="new">更新至</span><a href="" class="num" target="_blank">6话</a></div>
+                                    </div>
+                                </li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                                <li class="bot_li"></li>
+                            </ul> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="l_right" id="right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        <!-- bangumi end -->
+
+        <!-- china start -->
+            <div class="b_china_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>国产原创</a>
+                        <p class='t_now'>当前共有<span>18888</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>45秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>111条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- china end -->
+
+        <!-- music start -->
+            <div class="b_music_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>音乐</a>
+                        <p class='t_now'>当前共有<span>25369</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>13秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>85条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- music end -->
+
+        <!-- dance start -->
+            <div class="b_dance_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>舞蹈</a>
+                        <p class='t_now'>当前共有<span>366925</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>15秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>33条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- dance end -->
+
+        <!-- game start -->
+            <div class="b_game_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>游戏</a>
+                        <p class='t_now'>当前共有<span>89923</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>53秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>220条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- game end -->
+
+        <!-- tec start -->
+            <div class="b_tec_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>科技</a>
+                        <p class='t_now'>当前共有<span>58926</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>280秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>250条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- tec end -->
+
+        <!-- life start -->
+            <div class="b_life_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>生活</a>
+                        <p class='t_now'>当前共有<span>25693</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>56秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>333条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- life end -->
+
+        <!-- gost start -->
+            <div class="b_gost_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>鬼畜</a>
+                        <p class='t_now'>当前共有<span>3666</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>23秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>480条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- gost end -->
+
+        <!-- fashion start -->
+            <div class="b_fashion_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>时尚</a>
+                        <p class='t_now'>当前共有<span>89654</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>78秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>56条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- fashion end -->
+
+        <!-- ad start -->
+            <div class="b_ad_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>广告</a>
+                        <p class='t_now'>当前共有<span>265</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>118秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>277条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- ad end -->
+
+        <!-- happy start -->
+            <div class="b_happy_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>娱乐</a>
+                        <p class='t_now'>当前共有<span>59623</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>191秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>710条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- happy end -->
+
+        <!-- film start -->
+            <div class="b_film_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>电影</a>
+                        <p class='t_now'>当前共有<span>99963</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>138秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>255条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- film end -->
+
+        <!-- tv start -->
+            <div class="b_tv_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>TV剧</a>
+                        <p class='t_now'>当前共有<span>56923</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>66秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>888条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- tv end -->
+
+        <!-- video start -->
+            <div class="b_video_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>影视</a>
+                        <p class='t_now'>当前共有<span>26395</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>156秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>333条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- video end -->
+
+        <!-- record start -->
+            <div class="b_record_wrap b_modle b_nav">
+                <div class="l_left">
+                    <div class="l_top">
+                        <i class="icon"></i>
+                        <a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.2" class='t_live' target='_blank'>纪录片</a>
+                        <p class='t_now'>当前共有<span>16932</span>个在线直播</p>
+                        <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.3" class='t_do' target='_blank'><i></i><span>421秒居然能做这些 !</span></a>
+                        <div class="t_more"><a href="https://live.bilibili.com/?spm_id_from=333.334.bili_live.4" target='_blank'><span>更多</span><i></i></a></div>
+                        <div class="t_act"><a href=""><i></i><span>720条新动态</span></a></div>
+                    </div>
+                    <div class="l_bot">
+                        <ul class="bot_ul">
+                          <!--   <li class="bot_li">
+                                <a href="https://live.bilibili.com/1241712?spm_id_from=333.334.bili_live.5" class="bot_a" target="_blank">
+                                    <div class="img_div">
+                                        <img class='img hover' src="images/bodyer/live/hover/1.jpg" alt="" width='160px' height='100'>
+                                        <img class='img show' src="images/bodyer/live/1.jpg" alt="" width='160px' height='100'>
+                                        <div class="des">
+                                            <p class='d_left name'>bilibili英雄联盟赛事 </p>
+                                            <p class='d_right'><i></i><span class='num'>3168000</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="title"> LPL春季赛VG 1:0 EDG / FPX 0:2 BLG</div>
+                                    <div class="out">游戏 · 英雄联盟</div>
+                                </a>
+                            </li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li>
+                            <li class="bot_li"><a href="" class="bot_a"></a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="l_right">
+                    <div class="r_top">
+                        <ul class="t_ul">
+                            <li class="t_li"><a href="" class="t_a">直播排行<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">关注的主播<i class='tra'></i></a></li>
+                            <li class="t_li"><a href="" class="t_a">为你推荐<i class='tra'></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="r_bot">
+                        <div class="bot_wrap">
+                            <ul class="b_ul1">
+                                <!-- <li class="b_li">
+                                    <div class="order">1</div>
+                                    <a href="" class="img"><img src="images/bodyer/live/right/1.jpg" alt="" width='40' height='40'></a>
+                                    <a href="" class="inf">
+                                        <div class="up">
+                                            <div class="title">宫本寓意</div>
+                                            <div class="num">22.9万</div>
+                                            <i></i>
+                                        </div>
+                                        <p class="det">哇哦！？</p>
+                                    </a>
+                                </li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li>
+                                <li class="b_li"></li> -->
+                            </ul>
+                            <ul class="b_ul2">
+                                <li><i></i><span>没有数据(-_-#)</span></li>
+                            </ul>
+                            <ul class="b_ul3">
+                                <li class="b_li">
+                                    <ul class="ul_wrap">
+                                        <li>
+                                            <a href="https://live.bilibili.com/pages/lpl2018/spring?spm_id_from=333.334.bili_live.27" target="_blank">
+                                                <img src="images/bodyer/live/right/ul3/1.jpg" alt="" width="260" height="248">
+                                                <span>2月4日14点直播LPL2018春季赛</span>
+                                            </a>
+                                        </li>
+                                        <li><a href="https://www.bilibili.com/blackboard/activity-wanan1.html?spm_id_from=333.334.bili_live.28" target="_blank"><img src="images/bodyer/live/right/ul3/2.png" alt="" width="260" height="248"><span>晚安电台</span></a></li>
+                                        <li><a href="https://www.bilibili.com/blackboard/live/livesingers-winter.html?spm_id_from=333.334.bili_live.29" target="_blank"><img src="images/bodyer/live/right/ul3/3.png" alt="" width="260" height="248"><span> 直播唱见冬季版</span></a></li>
+                                    </ul>
+                                    <div class="tab_wrap">
+                                        <ul class="tab_ul">
+                                            <li class="tab_li on"></li>
+                                            <li class="tab_li"></li>
+                                            <li class="tab_li"></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="b_img">
+                                    <a href="https://h.bilibili.com/?spm_id_from=333.334.bili_live.33" target="_blank"><img src="images/bodyer/live/right/download1.png" alt="" width="127" height="43"></a>
+                                    <a href="https://vc.bilibili.com/?spm_id_from=333.334.bili_live.34" target="_blank"><img src="images/bodyer/live/right/download2.png" alt="" width="127" height="43"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- record end -->
+
+        <!-- special start -->
+            <div id="b_special_wrap">
+                <div class="special_top">
+                    <div class="t_left">
+                        <i class="icon"></i>
+                        <a href='https://www.bilibili.com/list/recommend/1.html?spm_id_from=333.334.special_recommend.1' class="name">特别推荐</a>
+                    </div>
+                </div>
+                <div class="special_bot">
+                    <div class="b_left">
+                        <ul class="l_ul">
+                            <li class="l_li">
+                                <div class="a_div">
+                                    <a href="https://www.bilibili.com/video/av19062620/?spm_id_from=333.334.special_recommend.2" class="l_a" target='_blank'>
+                                        <img class='a_img' src="images/bodyer/special/show/1.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="des">
+                                    <a href="https://space.bilibili.com/58426?spm_id_from=333.334.special_recommend.3#/" class="des_img" target='_blank'><img src="images/bodyer/special/small/1.jpg" alt="" width='50' height='50'></a>
+                                    <a href='https://space.bilibili.com/58426?spm_id_from=333.334.special_recommend.3#/' class="des_con1" target='_blank'>残星什么的就是残星</a>
+                                    <span class="des_con2">推荐</span>
+                                </div>
+                                <a href="https://www.bilibili.com/video/av19062620/?spm_id_from=333.334.special_recommend.2" title='动画单曲周榜 第23期 2018【animelo mix' target="_blank" class='text'>
+                                    动画单曲周榜 第23期 2018【animelo mix】
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <div class="a_div">
+                                    <a href="https://www.bilibili.com/video/av19000189/?spm_id_from=333.334.special_recommend.4" class="l_a" target='_blank'>
+                                        <img class='a_img' src="images/bodyer/special/show/2.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="des">
+                                    <a href="https://space.bilibili.com/355495?spm_id_from=333.334.special_recommend.5#/" class="des_img" target='_blank'><img src="images/bodyer/special/small/2.jpg" alt="" width='50' height='50'></a>
+                                    <a href='https://space.bilibili.com/355495?spm_id_from=333.334.special_recommend.5#/' class="des_con1" target='_blank'>妹空酱</a>
+                                    <span class="des_con2">推荐</span>
+                                </div>
+                                <a href="https://www.bilibili.com/video/av19000189/?spm_id_from=333.334.special_recommend.4" title='动画单曲周榜 第23期 2018【animelo mix' target="_blank" class='text'>
+                                    【梦音×Ark-】四季折の羽【泪腺崩坏】
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <div class="a_div">
+                                    <a href="https://www.bilibili.com/video/av18977267/?spm_id_from=333.334.special_recommend.6" class="l_a" target='_blank'>
+                                        <img class='a_img' src="images/bodyer/special/show/3.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="des">
+                                    <a href="https://space.bilibili.com/29743?spm_id_from=333.334.special_recommend.7#" class="des_img" target='_blank'><img src="images/bodyer/special/small/3.jpg" alt="" width='50' height='50'></a>
+                                    <a href='https://space.bilibili.com/29743?spm_id_from=333.334.special_recommend.7#' class="des_con1" target='_blank'>破碎面具</a>
+                                    <span class="des_con2">推荐</span>
+                                </div>
+                                <a href="https://www.bilibili.com/video/av18977267/?spm_id_from=333.334.special_recommend.6" title='动画单曲周榜 第23期 2018【animelo mix' target="_blank" class='text'>
+                                    【武术MMD】面具子VS罪袋DEMO【壹】
+                                </a>
+                            </li>
+                            <li class="l_li">
+                                <div class="a_div">
+                                    <a href="https://www.bilibili.com/video/av18960536/?spm_id_from=333.334.special_recommend.8" class="l_a" target='_blank'>
+                                        <img class='a_img' src="images/bodyer/special/show/4.jpg" alt="" width='160' height='100'>
+                                        <i class="later" title='稍后再看'><img src="images/bodyer/banner/right/0.png" alt=""></i>
+                                    </a>
+                                </div>
+                                <div class="des">
+                                    <a href="https://space.bilibili.com/74084?spm_id_from=333.334.special_recommend.9#/" class="des_img" target='_blank'><img src="images/bodyer/special/small/4.jpg" alt="" width='50' height='50'></a>
+                                    <a href='https://space.bilibili.com/74084?spm_id_from=333.334.special_recommend.9#/' class="des_con1" target='_blank'>Dreamon</a>
+                                    <span class="des_con2">推荐</span>
+                                </div>
+                                <a href="https://www.bilibili.com/video/av18960536/?spm_id_from=333.334.special_recommend.8" title='动画单曲周榜 第23期 2018【animelo mix' target="_blank" class='text'>
+                                    点金的故事（下），鱼人夜行者第一视角
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="b_right">
+                        <a href="https://www.bilibili.com/blackboard/activity-big-discount.html?spm_id_from=333.334.special_recommend.14" target="_blank"><img src="images/bodyer/special/1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        <!-- special end -->
+
+        <!-- slide start -->
+            <div class="slide_wrap">
+                <div class="slide_box top230">
+                     <ul class="slide_ul"><!-- 17 -->
+                        <li class="slide_li"><span>直播</span></li>
+                        <li class="slide_li"><span>动画</span></li>
+                        <li class="slide_li"><span>番剧</span></li>
+                        <li class="slide_li"><span>国创</span></li>
+                        <li class="slide_li"><span>音乐</span></li>
+                        <li class="slide_li"><span>舞蹈</span></li>
+                        <li class="slide_li"><span>游戏</span></li>
+                        <li class="slide_li"><span>科技</span></li>
+                        <li class="slide_li"><span>生活</span></li>
+                        <li class="slide_li"><span>鬼畜</span></li>
+                        <li class="slide_li"><span>时尚</span></li>
+                        <li class="slide_li"><span>广告</span></li>
+                        <li class="slide_li"><span>娱乐</span></li>
+                        <li class="slide_li"><span>电影</span></li>
+                        <li class="slide_li"><span>TV剧</span></li>
+                        <li class="slide_li"><span>影视</span></li>
+                        <li class="slide_li"><span>记录片</span></li>
+                        <li class="slide_run"></li>
+                    </ul>
+                </div>
+            </div>
+        <!-- slide end -->
+    </div><!-- bodyer_wrap end -->
+<!-- bodyer end -->
+
+<!-- footer start -->
+    <div id="footer_wrap">
+        <div class="footer_box">
+            <div class="f_top">
+                <ul>
+                    <li class="t_box box1">
+                        <p class="title">bilibili</p>
+                        <ul class="ul1">
+                            <li class="li1"><a href="https://www.bilibili.com/blackboard/aboutUs.html" class="a1" target='_blank'>关于我们</a></li>
+                            <li class="li1"><a href="https://www.bilibili.com/blackboard/friends-links.html" class="a1" target='_blank'>友情链接</a></li>
+                            <li class="li1"><a href="https://bmall.bilibili.com/#!/" class="a1" target='_blank'>哔哩哔哩周边</a></li>
+                            <li class="li1"><a href="https://www.bilibili.com/aboutus/" class="a1" target='_blank'>About us</a></li>
+                            <li class="li1"><a href="https://www.bilibili.com/blackboard/join.html" class="a1" target='_blank'>加入我们</a></li>
+                            <li class="li1"><a href="https://account.bilibili.com/site/ident.html" class="a1" target='_blank'>官方认证</a></li>
+                            <li class="li1"><a href="https://www.bilibili.com/blackboard/contact.html" class="a1" target='_blank'>联系我们</a></li>
+                        </ul>
+                    </li>
+                    <li class="t_box box2">
+                        <p class="title">传送门</p>
+                        <ul class="ul2">
+                            <li class="li2"><a href="https://www.bilibili.com/blackboard/help.html" class="a2" target='_blank'>帮助中心</a></li>
+                            <li class="li2"><a href="https://www.bilibili.com/video/av120040/" class="a2" target='_blank'>高级弹幕</a></li>
+                            <li class="li2"><a href="https://www.bilibili.com/blackboard/activity_list.html#/" class="a2" target='_blank'>活动专题页</a></li>
+                            <li class="li2"><a href="https://www.bilibili.com/blackboard/copyright.html" class="a2" target='_blank'>侵权申诉</a></li>
+                            <li class="li2"><a href="https://account.bilibili.com/answer/addq/" class="a2" target='_blank'>分院帽计划</a></li>
+                            <li class="li2"><a href="https://activity.bilibili.com/" class="a2" target='_blank'>活动中心</a></li>
+                            <li class="li2"><a href="http://link.acg.tv/forum.php" class="a2" target='_blank'>用户反馈论坛</a></li>
+                            <li class="li2"><a href="https://link.bilibili.com/p/world/index#/6823116/world/wh" class="a2" target='_blank'>壁纸站</a></li>
+                            <li class="li2"><a href="https://www.bilibili.com/blackboard/activity-S1jfy69Jz.html" class="a2" target='_blank'>名人堂</a></li>
+                        </ul>
+                    </li>
+                    <li class="t_box box3">
+                        <ul class="ul3">
+                            <li class="li1">
+                                <a href="https://app.bilibili.com/" target="_blank">
+                                    <i></i><span>手机端下载</span>
+                                    <span class="hide">
+                                        <span class="img"><img src="images/footer/top/1.png" alt="" width='100' height='100'></span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="li2">
+                                <a href="https://weibo.com/bilibiliweb" target="_blank">
+                                    <i></i><span>腾讯微博</span>
+                                    <span class="hide">
+                                        <span class="img"><img src="images/footer/top/2.png" alt="" width='100' height='100'></span>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="li3">
+                                <a>
+                                    <i></i><span>官方微信</span>
+                                    <span class="hide">
+                                        <span class="img"><img src="images/footer/top/3.gif" alt="" width='220' height='122'></span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="f_bot">
+                <div class="b_left"><img src="images/footer/bot/1.png" alt="" width='96' height='113'></div>
+                <div class="b_right">
+                    <p class='r1'>
+                        广播电视节目制作经营许可证：（沪）字第1248号 | 网络文化经营许可证：沪网文[2013]0480-056号 | 信息网络传播视听节目许可证：0910417 | 互联网ICP备案：沪ICP备13002172号-3 沪ICP证：沪B2-20100043 | 违法不良信息举报邮箱：help@bilibili.com | 违法不良信息举报电话：4000233233转3
+                    </p>
+                    <p class="r2">
+                        <a href="http://www.shjbzx.cn/" class="a21" target='_blank'><i class='i1'></i><span>上海互联网举报中心</span></a>|
+                        <a href="http://jb.ccm.gov.cn/" class="a22" target='_blank'>12318 全国文化市场举报网站</a>|
+                        <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011002002436" class="a23" target='_blank'><b></b><span>沪公网安备 31011002002436号</span></a>|
+                        <span class="a24">儿童色情信息举报专区</span>
+                    </p>
+                    <p class="r3">
+                        <a href="http://report.12377.cn:13225/toreportinputNormal_anis.do" target='_blank'><span>网上有害信息举报专区：</span><i class='i2'></i><span>中国互联网违法和不良信息举报中心</span></a>
+                    </p>
+                    <p class="r4">公司名称：上海宽娱数码科技有限公司 | 公司地址：上海市杨浦区政立路485号 | 客服电话：4000233233</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- footer end -->
+
+<script type='text/javascript' src='js/jquery-3.2.1.js'></script>
+<script type='text/javascript' src='js/data.js'></script>
+<script type='text/javascript' src='js/header.js'></script>
+<script type='text/javascript' src='js/frame_login.js'></script>
+<script type='text/javascript' src='js/body.js'></script>
+<script type='text/javascript' src='js/footer.js'></script>
+
+<script>
+    // header top_right
+    var obj = document.querySelector('#h_top_wrap .con_wrap .con_right>li.login .hide .img>ul');
+    animation(obj,'left',-320);
+</script>
+</body>
+</html>
